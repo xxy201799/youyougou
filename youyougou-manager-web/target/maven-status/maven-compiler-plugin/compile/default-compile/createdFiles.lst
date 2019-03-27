@@ -1,0 +1,7 @@
+com\youyougou\manager\controller\SpecificationController.class
+com\youyougou\manager\controller\LoginController.class
+com\youyougou\manager\controller\BrandController.class
+com\youyougou\manager\controller\TypeTemplateController.class
+com\youyougou\manager\controller\ItemCatController.class
+com\youyougou\manager\controller\SellerController.class
+com\youyougou\manager\controller\GoodsController.class
