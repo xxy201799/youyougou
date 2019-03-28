@@ -108,5 +108,8 @@ public class TypeTemplateServiceImpl implements TypeTemplateService {
 		return new PageResult(page.getTotal(), page.getResult());
 	}
 
+	public List<Map> selectTemplateList(){
+		return typeTemplateMapper.selectTemplateList();
+	}
 
 }

@@ -73,8 +73,20 @@ public class ItemCatServiceImpl implements ItemCatService {
 	 */
 	@Override
 	public void delete(Long[] ids) {
+		TbItemCatExample example=new TbItemCatExample();
+		Criteria criteria=example.createCriteria();
+		System.out.println("进入删除工作"+ids.length);
 		for(Long id:ids){
-			itemCatMapper.deleteByPrimaryKey(id);
+			criteria.andParentIdEqualTo(id);
+			List<TbItemCat> list=itemCatMapper.selectByExample(example);
+			if(list==null||list.size()==0){
+				//System.out.println("此处执行删除操作");
+				itemCatMapper.deleteByPrimaryKey(id);
+			}else {
+				//System.out.println("失败");
+				throw new RuntimeException("删除失败");
+			}
+
 		}		
 	}
 	
@@ -96,5 +108,13 @@ public class ItemCatServiceImpl implements ItemCatService {
 		Page<TbItemCat> page= (Page<TbItemCat>)itemCatMapper.selectByExample(example);		
 		return new PageResult(page.getTotal(), page.getResult());
 	}
-	
+
+	@Override
+	public List<TbItemCat> findByParentId(Long parentId) {
+		TbItemCatExample example=new TbItemCatExample();
+		Criteria criteria=example.createCriteria();
+		criteria.andParentIdEqualTo(parentId);
+		return itemCatMapper.selectByExample(example);
+	}
+
 }
