@@ -65,6 +65,10 @@ public interface TypeTemplateService {
 	 * @return
 	 */
 	List<Map> selectTemplateList();
-
+	/**
+	 * 返回规格列表
+	 * @return
+	 */
+	public List<Map> findSpecList(Long id);
 	
 }

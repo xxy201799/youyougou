@@ -1,4 +1,7 @@
+com\youyougou\shop\controller\UploadController.class
 com\youyougou\shop\service\UserDetailServiceImpl.class
 com\youyougou\shop\controller\GoodsController.class
+com\youyougou\shop\controller\ItemCatController.class
+com\youyougou\shop\controller\TypeTemplateController.class
 com\youyougou\shop\controller\SellerController.class
 com\youyougou\shop\controller\LoginController.class

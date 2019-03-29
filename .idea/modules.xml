@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../zookeeper_api/zookeeper_book/dist_consistency_book.iml" filepath="$PROJECT_DIR$/../zookeeper_api/zookeeper_book/dist_consistency_book.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/youyougou_workspace.iml" filepath="$PROJECT_DIR$/.idea/youyougou_workspace.iml" />
     </modules>
   </component>

@@ -28,7 +28,9 @@ public class UserDetailServiceImpl implements UserDetailsService {
         List<GrantedAuthority> grantedAuthorities=new ArrayList<>();
         grantedAuthorities.add(new SimpleGrantedAuthority("ROLE_SELLER"));
         TbSeller seller=sellerService.findOne(username);
+
         if(seller!=null){
+            System.out.println("密码正确");
             return new User(username,seller.getPassword(),grantedAuthorities);
         }else{
             return null;

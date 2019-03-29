@@ -47,6 +47,7 @@ com\youyougou\pojo\TbContentCategoryExample$GeneratedCriteria.class
 com\youyougou\pojo\TbSeller.class
 com\youyougou\pojo\TbAddressExample.class
 com\youyougou\pojo\TbGoodsDescExample$Criteria.class
+com\youyougou\pojogroup\Goods.class
 com\youyougou\pojo\TbFreightTemplateExample$GeneratedCriteria.class
 com\youyougou\pojo\TbSpecificationOptionExample$GeneratedCriteria.class
 com\youyougou\pojo\TbItemExample$Criteria.class

@@ -5,67 +5,106 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0902d977-cac4-4b9e-b6dd-259f3a00d2b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-common/src/main/java/com/hundsun/youyougou/util/FastDFSClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojogroup/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/resources/config/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/uploadService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-common/target/youyougou-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-common/target/youyougou-common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-dao/src/main/java/com/youyougou/mapper/TbTypeTemplateMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-dao/src/main/java/com/youyougou/mapper/TbTypeTemplateMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbTypeTemplateMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbTypeTemplateMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-dao/target/classes/com/youyougou/mapper/TbTypeTemplateMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-dao/target/classes/com/youyougou/mapper/TbTypeTemplateMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-dao/target/classes/mapper/TbTypeTemplateMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-dao/target/classes/mapper/TbTypeTemplateMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-dao/target/youyougou-dao.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-dao/target/youyougou-dao.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/ItemCatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/ItemCatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/TypeTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/TypeTemplateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/item_cat.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/item_cat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/itemCatController.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/itemCatController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/itemCatService.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/itemCatService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/typeTemplateService.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/typeTemplateService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/classes/com/youyougou/manager/controller/ItemCatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/classes/com/youyougou/manager/controller/ItemCatController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/classes/com/youyougou/manager/controller/TypeTemplateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/classes/com/youyougou/manager/controller/TypeTemplateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/classes/com/youyougou/manager/controller/ItemCatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/classes/com/youyougou/manager/controller/ItemCatController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/classes/com/youyougou/manager/controller/TypeTemplateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/classes/com/youyougou/manager/controller/TypeTemplateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/lib/youyougou-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/lib/youyougou-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/lib/youyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/lib/youyougou-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/lib/youyougou-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/lib/youyougou-sellergoods-interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/admin/item_cat.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/admin/item_cat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/js/controller/itemCatController.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/js/controller/itemCatController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/js/service/itemCatService.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/js/service/itemCatService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/js/service/typeTemplateService.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/js/service/typeTemplateService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-pojo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-pojo/target/youyougou-pojo.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/target/youyougou-pojo.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/ItemCatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/ItemCatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/TypeTemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/TypeTemplateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/classes/com/youyougou/sellergoods/service/ItemCatService.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/classes/com/youyougou/sellergoods/service/ItemCatService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/classes/com/youyougou/sellergoods/service/TypeTemplateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/classes/com/youyougou/sellergoods/service/TypeTemplateService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/youyougou-sellergoods-interface.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/youyougou-sellergoods-interface.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/ItemCatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/ItemCatServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/classes/com/youyougou/sellergoods/service/impl/ItemCatServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/classes/com/youyougou/sellergoods/service/impl/ItemCatServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/classes/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/classes/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/tomcat/logs/access_log.2019-03-26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service.war" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/classes/com/youyougou/sellergoods/service/impl/ItemCatServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/classes/com/youyougou/sellergoods/service/impl/ItemCatServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/classes/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/classes/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-sellergoods-interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/tomcat/logs/access_log.2019-03-26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/classes/spring/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/classes/spring/spring-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/lib/youyougou-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/lib/youyougou-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/lib/youyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/lib/youyougou-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/lib/youyougou-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/lib/youyougou-sellergoods-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-common/target/youyougou-common.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-dao/src/main/java/com/youyougou/mapper/TbTypeTemplateMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbGoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbGoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbTypeTemplateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-dao/target/classes/com/youyougou/mapper/TbTypeTemplateMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-dao/target/classes/mapper/TbGoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-dao/target/classes/mapper/TbGoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-dao/target/classes/mapper/TbTypeTemplateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-dao/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-dao/target/youyougou-dao.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/ItemCatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/ItemCatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/TypeTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/TypeTemplateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/item_cat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/itemCatController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/itemCatService.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/itemCatService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/typeTemplateService.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/typeTemplateService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/classes/com/youyougou/manager/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/classes/com/youyougou/manager/controller/GoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/classes/com/youyougou/manager/controller/ItemCatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/classes/com/youyougou/manager/controller/TypeTemplateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/classes/com/youyougou/manager/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/classes/com/youyougou/manager/controller/GoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/classes/com/youyougou/manager/controller/ItemCatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/classes/com/youyougou/manager/controller/TypeTemplateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/lib/youyougou-common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/lib/youyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/lib/youyougou-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/admin/item_cat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/js/controller/itemCatController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/js/service/itemCatService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/js/service/typeTemplateService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-pojo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-pojo/target/youyougou-pojo.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/ItemCatService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/TypeTemplateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/classes/com/youyougou/sellergoods/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/classes/com/youyougou/sellergoods/service/GoodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/classes/com/youyougou/sellergoods/service/ItemCatService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/classes/com/youyougou/sellergoods/service/TypeTemplateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/youyougou-sellergoods-interface.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/ItemCatServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/classes/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/classes/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/classes/com/youyougou/sellergoods/service/impl/ItemCatServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/classes/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/classes/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/classes/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/classes/com/youyougou/sellergoods/service/impl/ItemCatServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/classes/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-dao-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/service/UserDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/service/UserDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/resources/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/baseController.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/baseController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/goodsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/goodsController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/shoplogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/shoplogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/classes/com/youyougou/shop/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/classes/com/youyougou/shop/controller/GoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/classes/com/youyougou/shop/service/UserDetailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/classes/com/youyougou/shop/service/UserDetailServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/classes/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/classes/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/classes/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/classes/com/youyougou/shop/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/classes/com/youyougou/shop/controller/GoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/classes/com/youyougou/shop/service/UserDetailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/classes/com/youyougou/shop/service/UserDetailServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/classes/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/classes/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/classes/spring/spring-security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/classes/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/lib/youyougou-common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/lib/youyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/lib/youyougou-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/admin/goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/admin/goods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/admin/goods_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/admin/goods_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/js/controller/baseController.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/js/controller/baseController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/js/controller/goodsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/js/controller/goodsController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/shoplogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/shoplogin.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/youyougou-manager-web/target/" />
     <ignored path="$PROJECT_DIR$/youyougou-sellergoods-interface/target/" />
@@ -108,13 +147,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="pinyougoudb: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="youyougou" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="pinyougoudb: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="tb_item_cat: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -139,57 +171,67 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="22" />
-          <entry key="java" value="44" />
-          <entry key="js" value="36" />
+          <entry key="class" value="1" />
+          <entry key="conf" value="1" />
+          <entry key="html" value="30" />
+          <entry key="java" value="66" />
+          <entry key="js" value="46" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
-          <entry key="properties" value="1" />
-          <entry key="rnc" value="1" />
-          <entry key="sql" value="5" />
+          <entry key="properties" value="2" />
+          <entry key="rnc" value="2" />
+          <entry key="sql" value="7" />
+          <entry key="tb_goods" value="1" />
+          <entry key="tb_goods_desc" value="3" />
           <entry key="tb_item_cat" value="1" />
           <entry key="tb_order" value="1" />
-          <entry key="tb_seller" value="1" />
-          <entry key="tb_type_template" value="2" />
-          <entry key="xml" value="25" />
+          <entry key="tb_seller" value="4" />
+          <entry key="tb_specification" value="1" />
+          <entry key="tb_specification_option" value="1" />
+          <entry key="tb_type_template" value="3" />
+          <entry key="tb_user" value="1" />
+          <entry key="xml" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="5" />
-          <entry key="HTML" value="22" />
+          <entry key="CLASS" value="1" />
+          <entry key="Database Element" value="16" />
+          <entry key="HTML" value="30" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="44" />
-          <entry key="JavaScript" value="36" />
+          <entry key="JAVA" value="66" />
+          <entry key="JavaScript" value="46" />
           <entry key="Markdown" value="1" />
-          <entry key="Properties" value="1" />
-          <entry key="RNG Compact" value="1" />
-          <entry key="Scratch" value="5" />
-          <entry key="XML" value="25" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="2" />
+          <entry key="RNG Compact" value="2" />
+          <entry key="Scratch" value="7" />
+          <entry key="XML" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1140" />
-          <entry key="java" value="1078" />
-          <entry key="js" value="742" />
+          <entry key="html" value="1278" />
+          <entry key="java" value="1219" />
+          <entry key="js" value="879" />
           <entry key="md" value="45" />
           <entry key="properties" value="8" />
           <entry key="sql" value="15" />
           <entry key="txt" value="11" />
-          <entry key="xml" value="365" />
+          <entry key="xml" value="374" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1140" />
-          <entry key="JAVA" value="1078" />
-          <entry key="JavaScript" value="742" />
+          <entry key="HTML" value="1278" />
+          <entry key="JAVA" value="1219" />
+          <entry key="JavaScript" value="879" />
           <entry key="Markdown" value="45" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="Properties" value="8" />
+          <entry key="SQL" value="1" />
           <entry key="Scratch" value="15" />
-          <entry key="XML" value="365" />
+          <entry key="XML" value="373" />
         </counts>
       </usages-collector>
     </session>
@@ -200,92 +242,92 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/item_cat.html">
+        <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/TypeTemplateService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="83" column="115" selection-start-line="83" selection-start-column="115" selection-end-line="83" selection-end-column="115" />
+            <state relative-caret-position="168">
+              <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/type_template.html">
+        <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="94" column="115" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="115" />
+            <state relative-caret-position="121">
+              <caret line="132" column="38" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/typeTemplateService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods_edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-229">
+              <caret line="207" column="26" selection-start-line="207" selection-start-column="26" selection-end-line="207" selection-end-column="26" />
               <folding>
-                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/itemCatController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/ItemCatController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/ItemCatServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="86" column="44" lean-forward="true" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
-              <folding>
-                <element signature="e#1167#1168#0" expanded="true" />
-                <element signature="e#1205#1206#0" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#11;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="50">
-                <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="160" column="65" selection-start-line="160" selection-start-column="65" selection-end-line="160" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/TypeTemplateService.java">
+        <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/goodsController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+            <state relative-caret-position="25">
+              <caret line="199" column="4" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/ItemCatService.java">
+        <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/GoodsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+            <state relative-caret-position="225">
+              <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e573fd52-9b89-4797-929b-56e4e488a491/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
+        <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_specification">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
-              <caret selection-end-column="44" />
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/TypeTemplateController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
+              <folding>
+                <element signature="e#2652#2653#0" expanded="true" />
+                <element signature="e#2702#2703#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -295,8 +337,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -310,6 +352,9 @@
       <find>form</find>
       <find>chendahai</find>
       <find>注销</find>
+      <find>ins</find>
+      <find>保存</find>
+      <find>颜色</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -318,36 +363,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/SpecificationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/baseController.js" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbBrandMapper.xml" />
-        <option value="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/youyougou-dao/src/main/java/com/youyougou/mapper/TbBrandMapper.java" />
-        <option value="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/BrandServiceImpl.java" />
-        <option value="$PROJECT_DIR$/youyougou-dao/src/main/resources/spring/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/youyougou-dao/src/main/resources/properties/db.properties" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/pom.xml" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/resources/spring/spring-security.xml" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/login.html" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/indexController.js" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/loginService.js" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/index.html" />
-        <option value="$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojo/TbSeller.java" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/register.html" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/SellerService.java" />
         <option value="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/SellerServiceImpl.java" />
         <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/sellerService.js" />
         <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/seller_1.html" />
         <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/sellerController.js" />
         <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/sellerController.js" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/pom.xml" />
         <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/service/UserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/service/UserDetailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/shoplogin.html" />
         <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/index.html" />
@@ -360,8 +383,6 @@
         <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/type_template.html" />
         <option value="$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbTypeTemplateMapper.xml" />
         <option value="$PROJECT_DIR$/youyougou-dao/src/main/java/com/youyougou/mapper/TbTypeTemplateMapper.java" />
-        <option value="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/TypeTemplateService.java" />
-        <option value="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.java" />
         <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/TypeTemplateController.java" />
         <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/typeTemplateService.js" />
         <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/ItemCatController.java" />
@@ -369,6 +390,30 @@
         <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/itemCatController.js" />
         <option value="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/ItemCatServiceImpl.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbGoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojogroup/Goods.java" />
+        <option value="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods.html" />
+        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/service/UserDetailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/shoplogin.html" />
+        <option value="$PROJECT_DIR$/youyougou-shop-web/pom.xml" />
+        <option value="$PROJECT_DIR$/youyougou-common/pom.xml" />
+        <option value="$PROJECT_DIR$/youyougou-common/src/main/java/com/hundsun/youyougou/util/FastDFSClient.java" />
+        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/resources/config/application.properties" />
+        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/UploadService.js" />
+        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/ItemCatController.java" />
+        <option value="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/TypeTemplateService.java" />
+        <option value="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/TypeTemplateController.java" />
+        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/typeTemplateService.js" />
+        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/baseController.js" />
+        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/goodsController.js" />
+        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods_edit.html" />
+        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -393,7 +438,12 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="youyougou-shop-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -407,10 +457,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="187" />
-    <option name="y" value="2" />
+    <option name="x" value="186" />
+    <option name="y" value="1" />
     <option name="width" value="1400" />
-    <option name="height" value="777" />
+    <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -475,7 +525,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
@@ -485,6 +535,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="youyougou-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
@@ -524,13 +585,6 @@
             <path>
               <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="youyougou-sellergoods-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
               <item name="youyougou-sellergoods-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -563,6 +617,97 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="youyougou-shop-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="youyougou-shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="youyougou-shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="youyougou-shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="youyougou-shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="youyougou-shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="youyougou-shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="youyougou-shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="youyougou-shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="youyougou-shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="youyougou-shop-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -576,24 +721,27 @@
     <property name="SearchEverywhereHistoryKey" value="ItemCatC&#9;PSI&#9;JAVA://com.youyougou.manager.controller.ItemCatController&#10;Itemc&#9;PSI&#9;JAVA://com.youyougou.sellergoods.service.ItemCatService&#10;sellerCon&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-shop-web/src/main/webapp/js/controller/sellerController.js&#10;sellerservice.js&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-manager-web/src/main/webapp/js/service/sellerService.js&#10;sellerser&#9;PSI&#9;JAVA://com.youyougou.manager.controller.SellerController#sellerService&#10;SellerService.j&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-shop-web/src/main/webapp/js/service/sellerService.js&#10;sellerC&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/SellerController.java&#10;sellerSer&#9;PSI&#9;JAVA://com.youyougou.sellergoods.service.SellerService&#10;brand.ht&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-manager-web/src/main/webapp/admin/brand.html&#10;type&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-manager-web/src/main/webapp/admin/type_template.html&#10;SpecCo&#9;PSI&#9;JAVA://com.youyougou.manager.controller.SpecificationController&#10;spec&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/SpecificationService.java&#10;TbSpec&#9;PSI&#9;JAVA://com.youyougou.mapper.TbSpecificationMapper&#10;TbSp&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-dao/src/main/resources/mapper/TbSpecificationMapper.xml&#10;branservice.js&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-manager-web/src/main/webapp/js/service/brandService.js&#10;brandCo&#9;PSI&#9;JAVA://com.youyougou.manager.controller.BrandController&#10;brand&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/BrandServiceImpl.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553753203759" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553873641308" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zookeeper_api/zookeeper_book" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-shop-web\src\main\java\com\youyougou\shop\controller" />
       <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-shop-web\src\main\webapp\js\service" />
+      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-shop-web\src\main\resources\config" />
+      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-common\src\main\java\com\hundsun\youyougou\util" />
+      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-shop-web\src\main\webapp\js\controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.youyougou.shop.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-shop-web\src\main\webapp\js\controller" />
-      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-shop-web\src\main\resources\spring" />
-      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-shop-web\src\main\java\com\youyougou\shop\controller" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-shop-web\src\main\webapp\js\service" />
-      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-shop-web\src\main\webapp\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -608,7 +756,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.manager_web">
+  <component name="RunManager" selected="Maven.shop_web">
     <configuration name="manager_web" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -718,12 +866,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102701000" />
+    <option name="totallyTimeSpent" value="135870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.23525469" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.23525469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -733,15 +882,15 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32719547" />
@@ -753,8 +902,8 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.17627347" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.19150522" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.17627347" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.19101876" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,236 +939,203 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/img/Logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/sellerService.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/meta.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/sellerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/SellerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="68" selection-start-line="59" selection-start-column="8" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/SellerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="169" column="48" selection-start-line="169" selection-start-column="48" selection-end-line="169" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/sellerService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/seller_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="220" column="108" selection-start-line="220" selection-start-column="108" selection-end-line="220" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-922">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller" />
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/service/UserDetailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="39" column="92" selection-start-line="39" selection-start-column="92" selection-end-line="39" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/indexController.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/shoplogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="55" column="87" selection-start-line="55" selection-start-column="87" selection-end-line="55" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/loginService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/userController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-975" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/indexController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6775">
+        <state relative-caret-position="1670">
           <caret line="271" column="39" selection-start-line="271" selection-start-column="39" selection-end-line="271" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/sellerController.js">
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/service/UserDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/index.html">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/legacy.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="280" column="58" selection-start-line="280" selection-start-column="49" selection-end-line="280" selection-end-column="58" />
+        <state relative-caret-position="148">
+          <caret line="292" column="22" selection-end-line="1431" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/SellerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/SellerController.java">
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_goods">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/shoplogin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-836">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        <state relative-caret-position="2443">
+          <caret line="101" column="7" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
+          <folding>
+            <element signature="e#1963#1969#0" expanded="true" />
+            <element signature="e#1969#1975#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/resources/spring/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+        <state relative-caret-position="50">
+          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/brand.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojo/TbItemCat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/typeTemplateController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/angular-select2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_type_template">
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_goods_desc">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_item_cat">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+    <entry file="jar://D:/maven/maven-repository/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/filter/DelegatingFilterProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1427">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/resources/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <filtering enabled="true" />
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbTypeTemplateMapper.xml">
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="211" column="32" selection-start-line="211" selection-start-column="14" selection-end-line="211" selection-end-column="32" />
+        <state relative-caret-position="183">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-dao/src/main/java/com/youyougou/mapper/TbTypeTemplateMapper.java">
+    <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="175">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="111" column="45" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1030,119 +1146,233 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/TypeTemplateController.java">
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/resources/config/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-common/src/main/java/com/hundsun/youyougou/util/FastDFSClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="118" column="40" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
-          <folding>
-            <element signature="e#2475#2476#0" expanded="true" />
-            <element signature="e#2507#2508#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1453" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/typeTemplateService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/itemCatService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/baseController.js">
+    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="23" selection-end-column="47" />
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/specification.html">
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/UploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450" />
+        <state relative-caret-position="121">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#463#1" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/ItemCatService.java">
+    <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/GoodsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/uploadService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        <state relative-caret-position="25">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/ItemCatController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/itemCatService.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/TypeTemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
           <folding>
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#2652#2653#0" expanded="true" />
+            <element signature="e#2702#2703#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_type_template">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_specification_option">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/TypeTemplateService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        <state relative-caret-position="168">
+          <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/type_template.html">
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/typeTemplateService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="94" column="115" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="115" />
+        <state relative-caret-position="232">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/baseController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="132" column="38" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="207" column="26" selection-start-line="207" selection-start-column="26" selection-end-line="207" selection-end-column="26" />
           <folding>
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#11;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/item_cat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="83" column="115" selection-start-line="83" selection-start-column="115" selection-end-line="83" selection-end-column="115" />
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_specification">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/ItemCatController.java">
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/goodsController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="25">
+          <caret line="199" column="4" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/itemCatController.js">
+    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/ItemCatServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="86" column="44" lean-forward="true" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+        <state relative-caret-position="225">
+          <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
           <folding>
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="50">
-            <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="160" column="65" selection-start-line="160" selection-start-column="65" selection-end-line="160" selection-end-column="65" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>youyougou-manager-web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>youyougou-common</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -4,7 +4,9 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.youyougou.entity.PageResult;
 import com.youyougou.entity.Result;
 import com.youyougou.pojo.TbGoods;
+import com.youyougou.pojogroup.Goods;
 import com.youyougou.sellergoods.service.GoodsService;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -41,14 +43,17 @@ public class GoodsController {
 	public PageResult  findPage(int page,int rows){			
 		return goodsService.findPage(page, rows);
 	}
-	
+
 	/**
 	 * 增加
 	 * @param goods
 	 * @return
 	 */
 	@RequestMapping("/add")
-	public Result add(@RequestBody TbGoods goods){
+	public Result add(@RequestBody Goods goods){
+		//获取登录名
+		String sellerId = SecurityContextHolder.getContext().getAuthentication().getName();
+		goods.getGoods().setSellerId(sellerId);//设置商家ID
 		try {
 			goodsService.add(goods);
 			return new Result(true, "增加成功");
@@ -109,6 +114,8 @@ public class GoodsController {
 	 */
 	@RequestMapping("/search")
 	public PageResult search(@RequestBody TbGoods goods, int page, int rows  ){
+		String sellerId=SecurityContextHolder.getContext().getAuthentication().getName();
+		goods.setSellerId(sellerId);
 		return goodsService.findPage(goods, page, rows);		
 	}
 	
