@@ -30,20 +30,19 @@ public interface GoodsService {
 	 * 增加
 	*/
 	public void add(Goods goods);
-	
-	
+
 	/**
 	 * 修改
+	 * @param goods
 	 */
-	public void update(TbGoods goods);
-	
+	public void update(Goods goods);
 
 	/**
 	 * 根据ID获取实体
 	 * @param id
 	 * @return
 	 */
-	public TbGoods findOne(Long id);
+	public Goods findOne(Long id);
 	
 	
 	/**
