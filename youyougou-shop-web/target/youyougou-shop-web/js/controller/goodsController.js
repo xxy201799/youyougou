@@ -25,6 +25,7 @@ app.controller('goodsController' ,function($scope,$controller,uploadService,item
     //查询实体
     $scope.findOne=function(){
         var id= $location.search()['id'];//获取参数值
+        alert(id);
         if(id==null){
             return ;
         }
@@ -103,6 +104,7 @@ app.controller('goodsController' ,function($scope,$controller,uploadService,item
     //保存
     $scope.add=function(){
 		$scope.entity.goodsDesc.introduction=editor.html();
+		$scope.entity.goods.isMarketable=1;
         goodsService.add( $scope.entity  ).success(
             function(response){
                 if(response.success){
@@ -238,6 +240,60 @@ app.controller('goodsController' ,function($scope,$controller,uploadService,item
         return newList;
     }
     $scope.status=['未审核','已审核','审核未通过','关闭'];//商品状态
-
+    //定义商品状态
+    $scope.isMarkTables=[];
+    //更新商品状态
+    $scope.updateGoodsMark=function ($event,isMarkTableStatus) {
+        if($event.target.checked){
+            $scope.isMarkTables.push(isMarkTableStatus);
+        }else {
+            var idx=$scope.isMarkTables.indexOf(isMarkTableStatus);
+            $scope.isMarkTables.splice(idx,1);//删除
+        }
+    }
+    //商品上下架
+    //下架
+    $scope.isMarketable20=function () {
+        if(isMarkTables==null||isMarkTables.length==0){
+            alert("所选不能为空");
+            return;
+        }
+        for(var i=0;i<isMarkTables.length;i++){
+            if(isMarkTables[i]==0){
+                alert("所选商品中有已下架商品,已下架商品不能下架");
+                return;
+            }
+        }
+        goodsService.isMarketable($scope.selectIds,0).success(
+            function (response) {
+                if(response.success()){
+                    $scope.reloadList();
+                }else {
+                    alert(response.message);
+                }
+            }
+        );
+    }
+    $scope.isMarketable21=function () {
+        if(isMarkTables==null||isMarkTables.length==0){
+            alert("所选不能为空");
+            return;
+        }
+        for(var i=0;i<isMarkTables.length;i++){
+            if(isMarkTables[i]==1){
+                alert("所选商品中有已上架商品,已上架商品不能上架");
+                return;
+            }
+        }
+        goodsService.isMarketable($scope.selectIds,1).success(
+            function (response) {
+                if(response.success()){
+                    $scope.reloadList();
+                }else {
+                    alert(response.message);
+                }
+            }
+        );
+    }
 
 });	

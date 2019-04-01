@@ -15,6 +15,7 @@ import com.youyougou.pojo.TbGoodsExample.Criteria;
 import com.youyougou.sellergoods.service.GoodsService;
 
 import com.youyougou.entity.PageResult;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * 服务实现层
@@ -22,6 +23,7 @@ import com.youyougou.entity.PageResult;
  *
  */
 @Service
+@Transactional
 public class GoodsServiceImpl implements GoodsService {
 
 	@Autowired
@@ -64,6 +66,7 @@ public class GoodsServiceImpl implements GoodsService {
 	 */
 	public void add(Goods goods) {
 		goods.getGoods().setAuditStatus("0");
+		goods.getGoods().setIsMarketable("1");
 		goodsMapper.insert(goods.getGoods());	//插入商品表
 		goods.getGoodsDesc().setGoodsId(goods.getGoods().getId());
 		goodsDescMapper.insert(goods.getGoodsDesc());//插入商品扩展数据
@@ -98,7 +101,7 @@ public class GoodsServiceImpl implements GoodsService {
 	private void saveItemList(Goods goods){
 
 		if("1".equals(goods.getGoods().getIsEnableSpec())){
-			for(TbItem item:   goods.getItemList()){
+			for(TbItem item: goods.getItemList()){
 				//构建标题  SPU名称+ 规格选项值
 				String title=goods.getGoods().getGoodsName();//SPU名称
 				Map<String,Object> map=  JSON.parseObject(item.getSpec());
@@ -167,8 +170,12 @@ public class GoodsServiceImpl implements GoodsService {
 	@Override
 	public void delete(Long[] ids) {
 		for(Long id:ids){
-			goodsMapper.deleteByPrimaryKey(id);
-		}		
+			TbGoods goods = goodsMapper.selectByPrimaryKey(id);
+			goods.setIsDelete("1");
+			goodsMapper.updateByPrimaryKey(goods);
+
+		}
+
 	}
 	
 	
@@ -178,7 +185,7 @@ public class GoodsServiceImpl implements GoodsService {
 		
 		TbGoodsExample example=new TbGoodsExample();
 		Criteria criteria = example.createCriteria();
-		
+		criteria.andIsDeleteIsNull();//非删除状态
 		if(goods!=null){			
 			if(goods.getSellerId()!=null && goods.getSellerId().length()>0){
 				//criteria.andSellerIdLike("%"+goods.getSellerId()+"%");
@@ -211,5 +218,23 @@ public class GoodsServiceImpl implements GoodsService {
 		Page<TbGoods> page= (Page<TbGoods>)goodsMapper.selectByExample(example);		
 		return new PageResult(page.getTotal(), page.getResult());
 	}
-	
+
+	public void updateStatus(Long[] ids, String status) {
+		for(Long id:ids){
+			TbGoods goods = goodsMapper.selectByPrimaryKey(id);
+			goods.setAuditStatus(status);
+			goodsMapper.updateByPrimaryKey(goods);
+		}
+	}
+
+	@Override
+	public void updateMarkTable(Long[] ids, String status) {
+		for (Long id:ids){
+			TbGoods goods=goodsMapper.selectByPrimaryKey(id);
+			goods.setIsMarketable(status);
+			goodsMapper.updateByPrimaryKey(goods);
+		}
+	}
+
+
 }

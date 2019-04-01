@@ -125,5 +125,15 @@ public class GoodsController {
 		goods.setSellerId(sellerId);
 		return goodsService.findPage(goods, page, rows);		
 	}
-	
+	@RequestMapping("/isMarkTable")
+	public Result isMarkTable(Long[] ids,String status){
+		try {
+			//System.out.println("是否上下架"+status+ids.toString());
+			goodsService.updateMarkTable(ids,status);
+			return new Result(true, "更改成功");
+		} catch (Exception e) {
+			e.printStackTrace();
+			return new Result(false, "更改失败");
+		}
+	}
 }

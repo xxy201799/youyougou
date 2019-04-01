@@ -17,6 +17,7 @@ import com.youyougou.pojogroup.Specification;
 import com.youyougou.sellergoods.service.SpecificationService;
 
 import com.youyougou.entity.PageResult;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * 服务实现层
@@ -24,6 +25,7 @@ import com.youyougou.entity.PageResult;
  *
  */
 @Service
+@Transactional
 public class SpecificationServiceImpl implements SpecificationService {
 
 	@Autowired
