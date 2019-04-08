@@ -7,12 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="youyougou-common" />
+        <module name="youyougou-content-interface" />
+        <module name="youyougou-content-service" />
         <module name="youyougou-dao" />
         <module name="youyougou-manager-web" />
         <module name="youyougou-pojo" />
+        <module name="youyougou-portal-web" />
+        <module name="youyougou-search-interface" />
+        <module name="youyougou-search-service" />
+        <module name="youyougou-search-web" />
         <module name="youyougou-sellergoods-interface" />
         <module name="youyougou-sellergoods-service" />
         <module name="youyougou-shop-web" />
+        <module name="youyougou-solr-util" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,5 +31,10 @@
       <module name="maven-archiver (6)" target="1.5" />
       <module name="maven-archiver (7)" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="youyougou-search-service" options="" />
+    </option>
   </component>
 </project>

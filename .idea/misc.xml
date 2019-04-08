@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/youyougou-content-service" />
     <file type="web" url="file://$PROJECT_DIR$/youyougou-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/youyougou-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/youyougou-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/youyougou-search-web" />
     <file type="web" url="file://$PROJECT_DIR$/youyougou-sellergoods-service" />
     <file type="web" url="file://$PROJECT_DIR$/youyougou-shop-web" />
   </component>

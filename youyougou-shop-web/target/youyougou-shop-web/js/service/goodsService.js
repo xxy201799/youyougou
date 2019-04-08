@@ -30,7 +30,7 @@ app.service('goodsService',function($http){
 		return $http.post('../goods/search.do?page='+page+"&rows="+rows, searchEntity);
 	}
 	//商品上下架
-	this.isMarketable=function (ids,status) {
+	this.updateMarktable=function (ids,status) {
 		return $http.get('../goods/isMarkTable.do?ids='+ids+'&status='+status);
     }
 });

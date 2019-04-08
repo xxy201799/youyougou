@@ -16,7 +16,20 @@
         <module>../youyougou-sellergoods-service</module>
         <module>../youyougou-manager-web</module>
         <module>../youyougou-shop-web</module>
+        <module>../youyougou-content-interface</module>
+        <module>../youyougou-content-service</module>
+        <module>../youyougou-portal-web</module>
+        <module>../youyougou-solr-util</module>
+        <module>../youyougou-search-interface</module>
+        <module>../youyougou-search-service</module>
+        <module>../youyougou-search-web</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+        </dependency>
+    </dependencies>
 
     <!-- 集中定义依赖版本号 -->
     <properties>

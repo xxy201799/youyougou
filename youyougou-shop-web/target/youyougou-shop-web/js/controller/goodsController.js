@@ -244,6 +244,7 @@ app.controller('goodsController' ,function($scope,$controller,uploadService,item
     $scope.isMarkTables=[];
     //更新商品状态
     $scope.updateGoodsMark=function ($event,isMarkTableStatus) {
+        alert(isMarkTableStatus);
         if($event.target.checked){
             $scope.isMarkTables.push(isMarkTableStatus);
         }else {
@@ -254,44 +255,52 @@ app.controller('goodsController' ,function($scope,$controller,uploadService,item
     //商品上下架
     //下架
     $scope.isMarketable20=function () {
-        if(isMarkTables==null||isMarkTables.length==0){
+        if($scope.isMarkTables==null||$scope.isMarkTables.length==0){
             alert("所选不能为空");
+            $scope.isMarkTables=[];
             return;
         }
-        for(var i=0;i<isMarkTables.length;i++){
-            if(isMarkTables[i]==0){
+        for(var i=0;i<$scope.isMarkTables.length;i++){
+            if($scope.isMarkTables[i]==0){
                 alert("所选商品中有已下架商品,已下架商品不能下架");
+                $scope.isMarkTables=[];
                 return;
             }
         }
-        goodsService.isMarketable($scope.selectIds,0).success(
+        goodsService.updateMarktable($scope.selectIds,0).success(
             function (response) {
-                if(response.success()){
+                if(response.success){
                     $scope.reloadList();
                 }else {
                     alert(response.message);
                 }
+                $scope.isMarkTables=[];
             }
         );
     }
     $scope.isMarketable21=function () {
-        if(isMarkTables==null||isMarkTables.length==0){
+        if($scope.isMarkTables==null||$scope.isMarkTables.length==0){
             alert("所选不能为空");
+            $scope.isMarkTables=[];
             return;
         }
-        for(var i=0;i<isMarkTables.length;i++){
-            if(isMarkTables[i]==1){
+        for(var i=0;i<$scope.isMarkTables.length;i++){
+            if($scope.isMarkTables[i]==1){
                 alert("所选商品中有已上架商品,已上架商品不能上架");
+                $scope.isMarkTables=[];
                 return;
             }
         }
-        goodsService.isMarketable($scope.selectIds,1).success(
+        goodsService.updateMarktable($scope.selectIds,1).success(
             function (response) {
-                if(response.success()){
+                if(response.success){
                     $scope.reloadList();
+
                 }else {
                     alert(response.message);
+
                 }
+                $scope.isMarkTables=[];
             }
         );
     }

@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/youyougou-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/youyougou-common/target/maven-archiver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youyougou-content-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youyougou-content-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/youyougou-dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/youyougou-dao/target/maven-archiver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/youyougou-manager-web" charset="UTF-8" />
@@ -10,11 +12,16 @@
     <file url="file://$PROJECT_DIR$/youyougou-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/youyougou-pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/youyougou-pojo/target/maven-archiver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youyougou-portal-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youyougou-search-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youyougou-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youyougou-search-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/youyougou-sellergoods-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/youyougou-sellergoods-interface/target/maven-archiver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/youyougou-sellergoods-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/youyougou-sellergoods-service/target/maven-archiver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/youyougou-shop-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/youyougou-shop-web/target/maven-archiver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youyougou-solr-util" charset="UTF-8" />
   </component>
 </project>

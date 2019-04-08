@@ -2,42 +2,778 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/service/UserDetailServiceImpl.java" line="15" />
+    <bookmark url="file://E:/nbbep/business/bt/as/src/main/java/com/hundsun/bbep/bt/atom/impl/discreg/DiscRegisterBusiAtomUtil.java" description="criteria.andCustNameEqualTo(queryDiscRegisterBo.ge..." line="211" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0902d977-cac4-4b9e-b6dd-259f3a00d2b0" name="Default Changelist" comment="">
+    <list default="true" id="0902d977-cac4-4b9e-b6dd-259f3a00d2b0" name="Default Changelist" comment="" />
+    <list id="c1da0b33-dda6-48fc-a330-77a658542a9e" name="增加搜索功能，使用solr索引库" comment="">
+      <change afterPath="$PROJECT_DIR$/youyougou-common/src/main/resources/properties/redis-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-common/src/main/resources/spring/applicationContext-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-content-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-content-interface/src/main/java/com/youyougou/content/service/ContentCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-content-interface/src/main/java/com/youyougou/content/service/ContentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-content-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-content-service/src/main/java/com/youyougou/content/service/impl/ContentCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-content-service/src/main/java/com/youyougou/content/service/impl/ContentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-content-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-content-service/src/main/resources/spring/applicationContext-tx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/ContentCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/ContentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/resources/config/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/uploadService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/java/com/youyougou/portal/controller/ContentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/resources/config/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-JD-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-addressList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-cooperation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-getOrderInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-login-manage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-myOrder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-pay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-payfail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-paysuccess.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-sampling.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-seckill-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-seckill-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-seckillOrder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-shoplogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-success-cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-weixinpay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/pages-zoom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/webbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/widget-cartPanelView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/widget-jquery.autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/57b51ea9Nb862ca5e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/buy001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/buy002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/buy01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/cooperation_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/down-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/dp01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/dp02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/dp03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/dp04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/empty_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/erweima.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/gocart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/gocart01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/gotop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/icon-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/intro01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/intro02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/intro03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/itemlike01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/itemlike02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/itemlike03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/itemlike04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/itemlike05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/itemlike06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/l-m01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/list.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/login-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/manage-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/mobile01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/mobile02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/mobile03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/mobile04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/mobile05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/mobile06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/part01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/part02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/part03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/pay5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/phone-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/phone01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/phone02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/phone03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/phone04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/phone05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/phone06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/phone07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/phone08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/phone09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/phone10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/phone11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/phone12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/phone13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/phone14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/photo_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/sampling_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/seckillbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/shi_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/shop-intro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/shop-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/shop-part.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/t.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/title_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/_/y24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/ad1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/ali.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/itemlike/itemlike01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/itemlike/itemlike02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/itemlike/itemlike03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/itemlike/itemlike04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/itemlike/itemlike05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/itemlike/itemlike06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/pay5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/pay/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/dp01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/dp02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/dp03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/dp04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/intro01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/intro02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/intro03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/l-m01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/mobile01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/mobile02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/mobile03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/mobile04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/mobile05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/mobile06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/part01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/part02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/part03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/phone01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/phone02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/phone03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/phone04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/phone05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/phone06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/phone07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/phone08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/phone09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/phone10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/phone11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/phone12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/phone13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/phone/phone14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/success-cart/buy001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/success-cart/buy002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/success-cart/buy01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/success-cart/gocart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/success-cart/gocart01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/zoom/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/zoom/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/zoom/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/zoom/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/zoom/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/assets/img/zoom/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/banner4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/barrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/brand_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/cartPanelViewIcons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/choosed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/duihuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/floor-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/floor-1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/floor-1-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/floor-1-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/floor-1-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/floor-1-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/floor-1-b01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/floor-1-b02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/floor-1-b03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/goods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/icon-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/interest01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/interest02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/interest03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/interest04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/interest05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/interest06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/like1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/like2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/like3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/like4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/like_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/like_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/like_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/like_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/like_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/like_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/linker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/loginbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/mod-list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/phone-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/quan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/sina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/today01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/today02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/today03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/today04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/weixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/wx_cz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/img/zoom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/base_pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/controller/contentController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/czFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/model/cartModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/addressList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/city-picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/getOrderInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/jquery.slideunlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/login-manage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/person-collect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/person-footmark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/seckill-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/shoplogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/pages/sm-city-picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/plugins/birthday/birthday.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/plugins/citypicker/distpicker.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/plugins/citypicker/distpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/plugins/sui/sui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/plugins/upload/uploadPreview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/service/contentService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/widget/cartPanelView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/widget/jquery.autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/widget/nav-portal-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/widget/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/plugins/angularjs/angular-animate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/plugins/angularjs/angular-route.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/plugins/angularjs/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/plugins/angularjs/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/plugins/angularjs/pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/plugins/cssgrids/cssgrids-min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/plugins/normalize/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/plugins/sui/sui-append.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/plugins/sui/sui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/plugins/sui/sui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-interface/src/main/java/com/youyougou/search/service/ItemSearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-service/src/main/java/com/youyougou/search/service/impl/ItemSearchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-service/src/main/resources/spring/applicationContext-solr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/java/com/youyougou/search/controller/ItemSearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/resources/config/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-JD-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-addressList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-cooperation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-getOrderInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-login-manage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-myOrder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-pay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-payfail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-paysuccess.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-sampling.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-seckill-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-seckill-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-seckillOrder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-shoplogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-success-cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-weixinpay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/pages-zoom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/webbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/widget-cartPanelView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/css/widget-jquery.autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-moon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-moon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-moon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-pc.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-pc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-pc.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-pc.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-tb.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-tb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-tb.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-tb.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-touch.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-touch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-touch.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/fonts/icon-touch.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/57b51ea9Nb862ca5e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/buy001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/buy002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/buy01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/cooperation_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/down-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/dp01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/dp02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/dp03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/dp04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/empty_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/erweima.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/gocart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/gocart01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/gotop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/icon-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/intro01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/intro02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/intro03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/itemlike01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/itemlike02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/itemlike03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/itemlike04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/itemlike05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/itemlike06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/l-m01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/list.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/login-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/manage-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/mobile01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/mobile02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/mobile03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/mobile04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/mobile05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/mobile06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/part01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/part02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/part03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/pay5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/phone-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/phone01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/phone02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/phone03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/phone04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/phone05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/phone06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/phone07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/phone08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/phone09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/phone10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/phone11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/phone12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/phone13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/phone14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/photo_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/sampling_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/seckillbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/shi_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/shop-intro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/shop-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/shop-part.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/t.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/title_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/_/y24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/ad1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/ali.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/itemlike/itemlike01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/itemlike/itemlike02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/itemlike/itemlike03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/itemlike/itemlike04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/itemlike/itemlike05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/itemlike/itemlike06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/pay5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/pay/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/dp01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/dp02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/dp03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/dp04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/intro01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/intro02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/intro03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/l-m01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/mobile01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/mobile02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/mobile03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/mobile04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/mobile05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/mobile06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/part01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/part02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/part03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/phone01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/phone02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/phone03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/phone04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/phone05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/phone06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/phone07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/phone08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/phone09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/phone10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/phone11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/phone12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/phone13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/phone/phone14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/success-cart/buy001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/success-cart/buy002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/success-cart/buy01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/success-cart/gocart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/success-cart/gocart01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/zoom/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/zoom/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/zoom/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/zoom/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/zoom/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/assets/img/zoom/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/banner4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/barrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/brand_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/cartPanelViewIcons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/choosed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/duihuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/floor-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/floor-1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/floor-1-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/floor-1-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/floor-1-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/floor-1-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/floor-1-b01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/floor-1-b02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/floor-1-b03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/goods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/icon-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/interest01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/interest02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/interest03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/interest04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/interest05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/interest06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/like1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/like2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/like3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/like4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/like_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/like_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/like_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/like_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/like_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/like_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/linker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/loginbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/mod-list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/phone-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/quan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/sina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/today01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/today02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/today03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/today04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/weixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/wx_cz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/img/zoom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/controller/searchController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/czFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/model/cartModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/addressList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/city-picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/getOrderInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/jquery.slideunlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/login-manage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/person-collect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/person-footmark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/seckill-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/shoplogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/pages/sm-city-picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/plugins/birthday/birthday.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/plugins/citypicker/distpicker.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/plugins/citypicker/distpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/plugins/sui/sui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/plugins/upload/uploadPreview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/service/searchService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/widget/cartPanelView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/widget/jquery.autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/widget/nav-portal-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/widget/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/plugins/angularjs/angular-animate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/plugins/angularjs/angular-route.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/plugins/angularjs/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/plugins/angularjs/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/plugins/angularjs/pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/plugins/cssgrids/cssgrids-min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/plugins/normalize/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/plugins/sui/sui-append.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/plugins/sui/sui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/plugins/sui/sui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-solr-util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-solr-util/src/main/java/com/youyougou/solrutil/SolrUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-solr-util/src/main/resources/spring/applicationContext-solr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youyougou-solr-util/src/main/resources/spring/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e573fd52-9b89-4797-929b-56e4e488a491.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e573fd52-9b89-4797-929b-56e4e488a491.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/youyougou_workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/youyougou_workspace.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-common/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-common/target/youyougou-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-common/target/youyougou-common.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbContentCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbContentCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-dao/target/classes/mapper/TbContentCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-dao/target/classes/mapper/TbContentCategoryMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-dao/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-dao/target/youyougou-dao.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-dao/target/youyougou-dao.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/classes/com/youyougou/manager/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/classes/com/youyougou/manager/controller/GoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/resources/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/content_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/content_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/contentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/contentController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/classes/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/classes/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/classes/spring/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/classes/com/youyougou/manager/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/classes/com/youyougou/manager/controller/GoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/classes/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/classes/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/classes/spring/springmvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/lib/youyougou-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/lib/youyougou-common-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/lib/youyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/lib/youyougou-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/lib/youyougou-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/WEB-INF/lib/youyougou-sellergoods-interface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/admin/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/admin/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/admin/content_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/admin/content_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/js/controller/contentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-manager-web/target/youyougou-manager-web/js/controller/contentController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojo/TbContentCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojo/TbContentCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojo/TbContentCategoryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojo/TbContentCategoryExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojo/TbItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojo/TbItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-pojo/target/classes/com/youyougou/pojo/TbContentCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/target/classes/com/youyougou/pojo/TbContentCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-pojo/target/classes/com/youyougou/pojo/TbContentCategoryExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/target/classes/com/youyougou/pojo/TbContentCategoryExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-pojo/target/classes/com/youyougou/pojo/TbContentCategoryExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/target/classes/com/youyougou/pojo/TbContentCategoryExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-pojo/target/classes/com/youyougou/pojo/TbContentCategoryExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/target/classes/com/youyougou/pojo/TbContentCategoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-pojo/target/classes/com/youyougou/pojo/TbContentCategoryExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/target/classes/com/youyougou/pojo/TbContentCategoryExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-pojo/target/classes/com/youyougou/pojo/TbItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/target/classes/com/youyougou/pojo/TbItem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-pojo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-pojo/target/youyougou-pojo.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-pojo/target/youyougou-pojo.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/classes/com/youyougou/sellergoods/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/classes/com/youyougou/sellergoods/service/GoodsService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/youyougou-sellergoods-interface.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-interface/target/youyougou-sellergoods-interface.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/classes/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/classes/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/classes/com/youyougou/sellergoods/service/impl/SpecificationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/classes/com/youyougou/sellergoods/service/impl/SpecificationServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service.war" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/classes/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/classes/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/classes/com/youyougou/sellergoods/service/impl/SpecificationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/classes/com/youyougou/sellergoods/service/impl/SpecificationServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-common-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-dao-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-sellergoods-service/target/youyougou-sellergoods-service/WEB-INF/lib/youyougou-sellergoods-interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/goodsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/goodsController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/classes/com/youyougou/shop/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/classes/com/youyougou/shop/controller/GoodsController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/classes/com/youyougou/shop/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/classes/com/youyougou/shop/controller/GoodsController.class" afterDir="false" />
@@ -45,8 +781,8 @@
       <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/lib/youyougou-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/lib/youyougou-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/lib/youyougou-sellergoods-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/WEB-INF/lib/youyougou-sellergoods-interface-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/admin/goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/admin/goods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/admin/goods_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/admin/goods_edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/js/controller/goodsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/js/controller/goodsController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/js/service/goodsService.js" beforeDir="false" afterPath="$PROJECT_DIR$/youyougou-shop-web/target/youyougou-shop-web/js/service/goodsService.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/youyougou-manager-web/target/" />
     <ignored path="$PROJECT_DIR$/youyougou-sellergoods-interface/target/" />
@@ -56,6 +792,13 @@
     <ignored path="$PROJECT_DIR$/youyougou-common/target/" />
     <ignored path="$PROJECT_DIR$/youyougou-shop-web/target/" />
     <ignored path="$PROJECT_DIR$/youyougou-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/youyougou-content-interface/target/" />
+    <ignored path="$PROJECT_DIR$/youyougou-content-service/target/" />
+    <ignored path="$PROJECT_DIR$/youyougou-portal-web/target/" />
+    <ignored path="$PROJECT_DIR$/youyougou-solr-util/target/" />
+    <ignored path="$PROJECT_DIR$/youyougou-search-interface/target/" />
+    <ignored path="$PROJECT_DIR$/youyougou-search-service/target/" />
+    <ignored path="$PROJECT_DIR$/youyougou-search-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,35 +839,40 @@
     <session id="-897531928">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.246" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.78" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="conf" value="1" />
-          <entry key="html" value="33" />
-          <entry key="java" value="69" />
-          <entry key="js" value="47" />
+          <entry key="conf" value="2" />
+          <entry key="css" value="1" />
+          <entry key="html" value="40" />
+          <entry key="java" value="95" />
+          <entry key="js" value="59" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
-          <entry key="properties" value="2" />
+          <entry key="properties" value="6" />
           <entry key="rnc" value="2" />
           <entry key="sql" value="8" />
-          <entry key="tb_goods" value="2" />
-          <entry key="tb_goods_desc" value="4" />
+          <entry key="tb_content" value="3" />
+          <entry key="tb_content_category" value="1" />
+          <entry key="tb_goods" value="3" />
+          <entry key="tb_goods_desc" value="5" />
           <entry key="tb_item" value="1" />
           <entry key="tb_item_cat" value="1" />
           <entry key="tb_order" value="1" />
@@ -133,48 +881,49 @@
           <entry key="tb_specification_option" value="1" />
           <entry key="tb_type_template" value="3" />
           <entry key="tb_user" value="1" />
-          <entry key="xml" value="37" />
+          <entry key="xml" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Database Element" value="19" />
-          <entry key="HTML" value="33" />
+          <entry key="CSS" value="1" />
+          <entry key="Database Element" value="25" />
+          <entry key="HTML" value="40" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="69" />
-          <entry key="JavaScript" value="47" />
+          <entry key="JAVA" value="95" />
+          <entry key="JavaScript" value="59" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="6" />
           <entry key="RNG Compact" value="2" />
           <entry key="Scratch" value="8" />
-          <entry key="XML" value="37" />
+          <entry key="XML" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1491" />
-          <entry key="java" value="1325" />
-          <entry key="js" value="900" />
+          <entry key="html" value="1528" />
+          <entry key="java" value="1497" />
+          <entry key="js" value="916" />
           <entry key="md" value="45" />
-          <entry key="properties" value="8" />
-          <entry key="sql" value="15" />
-          <entry key="txt" value="101" />
-          <entry key="xml" value="374" />
+          <entry key="properties" value="17" />
+          <entry key="sql" value="29" />
+          <entry key="txt" value="124" />
+          <entry key="xml" value="638" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1491" />
-          <entry key="JAVA" value="1325" />
-          <entry key="JavaScript" value="900" />
+          <entry key="HTML" value="1528" />
+          <entry key="JAVA" value="1497" />
+          <entry key="JavaScript" value="916" />
           <entry key="Markdown" value="45" />
-          <entry key="PLAIN_TEXT" value="101" />
-          <entry key="Properties" value="8" />
-          <entry key="SQL" value="1" />
+          <entry key="PLAIN_TEXT" value="124" />
+          <entry key="Properties" value="17" />
+          <entry key="SQL" value="15" />
           <entry key="Scratch" value="15" />
-          <entry key="XML" value="373" />
+          <entry key="XML" value="637" />
         </counts>
       </usages-collector>
     </session>
@@ -184,11 +933,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/goods.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youyougou-search-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2975">
-              <caret line="119" column="99" selection-start-line="119" selection-start-column="97" selection-end-line="119" selection-end-column="99" />
+            <state relative-caret-position="1091">
+              <caret line="145" column="25" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youyougou-search-web/src/main/webapp/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1400">
+              <caret line="86" column="126" selection-start-line="86" selection-start-column="124" selection-end-line="86" selection-end-column="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youyougou-search-web/src/main/java/com/youyougou/search/controller/ItemSearchController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youyougou-search-web/src/main/resources/config/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/youyougou-search-web/src/main/resources/spring/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/base.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/controller/searchController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -198,8 +1001,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -219,6 +1023,11 @@
       <find>has</find>
       <find>findO</find>
       <find>详情</find>
+      <find>图片</find>
+      <find>轮</find>
+      <find>品优购</find>
+      <find>品优</find>
+      <find>搜索</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -227,57 +1036,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/SellerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/sellerService.js" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/seller_1.html" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/sellerController.js" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/sellerController.js" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/service/UserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/index.html" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/SellerController.java" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/SellerController.java" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/resources/spring/spring-security.xml" />
-        <option value="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/ItemCatService.java" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/itemCatService.js" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e573fd52-9b89-4797-929b-56e4e488a491/console.sql" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/type_template.html" />
-        <option value="$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbTypeTemplateMapper.xml" />
-        <option value="$PROJECT_DIR$/youyougou-dao/src/main/java/com/youyougou/mapper/TbTypeTemplateMapper.java" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/TypeTemplateController.java" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/service/typeTemplateService.js" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/ItemCatController.java" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/item_cat.html" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/itemCatController.js" />
-        <option value="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/ItemCatServiceImpl.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbGoodsMapper.xml" />
-        <option value="$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojogroup/Goods.java" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/service/UserDetailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/shoplogin.html" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/pom.xml" />
-        <option value="$PROJECT_DIR$/youyougou-common/pom.xml" />
-        <option value="$PROJECT_DIR$/youyougou-common/src/main/java/com/hundsun/youyougou/util/FastDFSClient.java" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/resources/config/application.properties" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/UploadController.java" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/UploadService.js" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/ItemCatController.java" />
-        <option value="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/TypeTemplateService.java" />
-        <option value="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.java" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/TypeTemplateController.java" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/typeTemplateService.js" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/baseController.js" />
-        <option value="$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/GoodsService.java" />
-        <option value="$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/GoodsController.java" />
         <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods.html" />
         <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/goodsController.js" />
         <option value="$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods_edit.html" />
+        <option value="$PROJECT_DIR$/youyougou-content-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/youyougou-content-service/pom.xml" />
+        <option value="$PROJECT_DIR$/youyougou-parent/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/youyougou-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/youyougou-content-interface/src/main/java/com/youyougou/content/service/ContentCategoryService.java" />
+        <option value="$PROJECT_DIR$/youyougou-content-interface/src/main/java/com/youyougou/content/service/ContentService.java" />
+        <option value="$PROJECT_DIR$/youyougou-content-service/src/main/java/com/youyougou/content/service/impl/ContentCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/youyougou-content-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/youyougou-content-service/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/js/controller/contentController.js" />
+        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/ContentController.java" />
+        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/ContentCategoryController.java" />
+        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/content.html" />
+        <option value="$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojo/TbContent.java" />
+        <option value="$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbContentMapper.xml" />
+        <option value="$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbContentCategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/content_category.html" />
+        <option value="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/youyougou-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/youyougou-portal-web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/youyougou-portal-web/src/main/java/com/youyougou/portal/controller/ContentController.java" />
+        <option value="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/base.js" />
+        <option value="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/base_pagination.js" />
+        <option value="$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/youyougou-common/pom.xml" />
+        <option value="$PROJECT_DIR$/youyougou-common/src/main/resources/properties/redis-config.properties" />
+        <option value="$PROJECT_DIR$/youyougou-content-service/src/main/java/com/youyougou/content/service/impl/ContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/youyougou-solr-util/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/youyougou-solr-util/pom.xml" />
+        <option value="$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojo/TbItem.java" />
+        <option value="$PROJECT_DIR$/youyougou-solr-util/src/main/resources/spring/applicationContext-solr.xml" />
+        <option value="$PROJECT_DIR$/youyougou-solr-util/src/main/java/com/youyougou/solrutil/SolrUtil.java" />
+        <option value="$PROJECT_DIR$/youyougou-search-interface/src/main/java/com/youyougou/search/service/ItemSearchService.java" />
+        <option value="$PROJECT_DIR$/youyougou-search-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/youyougou-search-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/youyougou-search-service/src/main/resources/spring/applicationContext-solr.xml" />
+        <option value="$PROJECT_DIR$/youyougou-search-service/src/main/java/com/youyougou/search/service/impl/ItemSearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/youyougou-search-service/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/youyougou-search-web/src/main/java/com/youyougou/search/controller/ItemSearchController.java" />
+        <option value="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/WEB-INF/js/base.js" />
+        <option value="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/search.html" />
+        <option value="$PROJECT_DIR$/youyougou-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/youyougou-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/youyougou-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/controller/searchController.js" />
+        <option value="$PROJECT_DIR$/youyougou-search-web/src/main/resources/spring/springmvc.xml" />
       </list>
     </option>
   </component>
@@ -305,6 +1114,24 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="youyougou-search-interface" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="youyougou-search-interface" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="youyougou-search-service Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="youyougou-search-service Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="youyougou-shop-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
@@ -321,10 +1148,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="186" />
-    <option name="y" value="1" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1400" />
-    <option name="height" value="778" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -332,6 +1159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,101 +1167,41 @@
               <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="youyougou-manager-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="youyougou-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="youyougou-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="youyougou-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="youyougou-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="youyougou-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="youyougou-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youyougou_workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youyougou_workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="youyougou-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="SearchEverywhereHistoryKey" value="GoodsS&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.java&#10;ItemCatC&#9;PSI&#9;JAVA://com.youyougou.manager.controller.ItemCatController&#10;Itemc&#9;PSI&#9;JAVA://com.youyougou.sellergoods.service.ItemCatService&#10;sellerCon&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-shop-web/src/main/webapp/js/controller/sellerController.js&#10;sellerservice.js&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-manager-web/src/main/webapp/js/service/sellerService.js&#10;sellerser&#9;PSI&#9;JAVA://com.youyougou.manager.controller.SellerController#sellerService&#10;SellerService.j&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-shop-web/src/main/webapp/js/service/sellerService.js&#10;sellerC&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/SellerController.java&#10;sellerSer&#9;PSI&#9;JAVA://com.youyougou.sellergoods.service.SellerService&#10;brand.ht&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-manager-web/src/main/webapp/admin/brand.html&#10;type&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-manager-web/src/main/webapp/admin/type_template.html&#10;SpecCo&#9;PSI&#9;JAVA://com.youyougou.manager.controller.SpecificationController&#10;spec&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/SpecificationService.java&#10;TbSpec&#9;PSI&#9;JAVA://com.youyougou.mapper.TbSpecificationMapper&#10;TbSp&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-dao/src/main/resources/mapper/TbSpecificationMapper.xml&#10;branservice.js&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-manager-web/src/main/webapp/js/service/brandService.js&#10;brandCo&#9;PSI&#9;JAVA://com.youyougou.manager.controller.BrandController&#10;brand&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/BrandServiceImpl.java" />
+    <property name="SearchEverywhereHistoryKey" value="ContentService&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-content-service/src/main/java/com/youyougou/content/service/impl/ContentServiceImpl.java&#10;applicationContex&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-parent/src/main/resources/spring/applicationContext-tx.xml&#10;GoodsS&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.java&#10;ItemCatC&#9;PSI&#9;JAVA://com.youyougou.manager.controller.ItemCatController&#10;Itemc&#9;PSI&#9;JAVA://com.youyougou.sellergoods.service.ItemCatService&#10;sellerCon&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-shop-web/src/main/webapp/js/controller/sellerController.js&#10;sellerservice.js&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-manager-web/src/main/webapp/js/service/sellerService.js&#10;sellerser&#9;PSI&#9;JAVA://com.youyougou.manager.controller.SellerController#sellerService&#10;SellerService.j&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-shop-web/src/main/webapp/js/service/sellerService.js&#10;sellerC&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/SellerController.java&#10;sellerSer&#9;PSI&#9;JAVA://com.youyougou.sellergoods.service.SellerService&#10;brand.ht&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-manager-web/src/main/webapp/admin/brand.html&#10;type&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-manager-web/src/main/webapp/admin/type_template.html&#10;SpecCo&#9;PSI&#9;JAVA://com.youyougou.manager.controller.SpecificationController&#10;spec&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/SpecificationService.java&#10;TbSpec&#9;PSI&#9;JAVA://com.youyougou.mapper.TbSpecificationMapper&#10;TbSp&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-dao/src/main/resources/mapper/TbSpecificationMapper.xml&#10;branservice.js&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-manager-web/src/main/webapp/js/service/brandService.js&#10;brandCo&#9;PSI&#9;JAVA://com.youyougou.manager.controller.BrandController&#10;brand&#9;FILE&#9;file://D:/IDEA_WorkSpace/youyougou_workspace/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/BrandServiceImpl.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554014170495" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554702358147" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zookeeper_api/zookeeper_book" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fastDFS-demo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-shop-web\src\main\java\com\youyougou\shop\controller" />
-      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-shop-web\src\main\webapp\js\service" />
-      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-shop-web\src\main\resources\config" />
-      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-common\src\main\java\com\hundsun\youyougou\util" />
-      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-shop-web\src\main\webapp\js\controller" />
+      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-search-web\src\main\webapp\WEB-INF" />
+      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-search-web\src\main\resources" />
+      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-search-service\src\main\resources" />
+      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-solr-util\src\main\resources\spring" />
+      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-pojo\src\main\java\com\youyougou\pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.youyougou.manager.controller" />
       <recent name="com.youyougou.shop.controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-search-web\src\main\webapp" />
+      <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-content-service\src\main\resources" />
       <recent name="D:\IDEA_WorkSpace\youyougou_workspace\youyougou-shop-web\src\main\webapp\js\service" />
     </key>
   </component>
@@ -449,7 +1217,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.manager_web">
+  <component name="RunManager" selected="Application.SolrUtil">
+    <configuration name="SolrUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.youyougou.solrutil.SolrUtil" />
+      <module name="youyougou-solr-util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.youyougou.solrutil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="content_service" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/youyougou-content-service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="manager_web" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -470,6 +1276,31 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/youyougou-manager-web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="portal_web" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/youyougou-portal-web" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -528,10 +1359,18 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Maven.portal_web" />
+      <item itemvalue="Maven.content_service" />
       <item itemvalue="Maven.shellsgood_service" />
       <item itemvalue="Maven.shop_web" />
       <item itemvalue="Maven.manager_web" />
+      <item itemvalue="Application.SolrUtil" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SolrUtil" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -539,6 +1378,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0902d977-cac4-4b9e-b6dd-259f3a00d2b0" name="Default Changelist" comment="" />
+      <changelist id="c1da0b33-dda6-48fc-a330-77a658542a9e" name="增加搜索功能，使用solr索引库" comment="" />
       <created>1552653593576</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -555,6 +1395,9 @@
       <workItem from="1553555626087" duration="1842000" />
       <workItem from="1553561264102" duration="7699000" />
       <workItem from="1553600735280" duration="20814000" />
+      <workItem from="1554191085039" duration="175000" />
+      <workItem from="1554191308285" duration="427000" />
+      <workItem from="1554191779181" duration="20284000" />
     </task>
     <task id="LOCAL-00001" summary="增加商城商家管理后台商品录入功能，主要注意规格与模板的查询关系，以及SKU与SPU的理解，angularJS的监听事件使用，FastDFS的理解与使用。">
       <created>1553873936669</created>
@@ -563,16 +1406,23 @@
       <option name="project" value="LOCAL" />
       <updated>1553873936670</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加商城商家管理后台商品录入功能，主要注意规格与模板的查询关系，以及SKU与SPU的理解，angularJS的监听事件使用，FastDFS的理解与使用。">
+      <created>1554702556952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554702556952</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146844000" />
+    <option name="totallyTimeSpent" value="191323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.23525469" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.32573727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -580,10 +1430,11 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5011547" side_tool="true" weight="0.25707898" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Query Editor" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -595,6 +1446,14 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32719547" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32719547" />
+      <window_info anchor="bottom" id="Log Viewer" order="15" />
+      <window_info anchor="bottom" id="DB Execution Console" order="16" />
+      <window_info anchor="bottom" id="SFDX" order="17" />
+      <window_info anchor="bottom" id="Log Manager" order="18" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="19" />
+      <window_info anchor="bottom" id="Salesforce" order="20" />
+      <window_info anchor="bottom" id="Execute Anonymous" order="21" />
+      <window_info anchor="bottom" id="SOQL Query" order="22" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -602,8 +1461,8 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.17627347" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.19101876" />
+      <window_info anchor="right" id="Database" order="7" weight="0.12533513" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.27949062" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,345 +1502,98 @@
     <option name="LAST_COMMIT_MESSAGE" value="增加商城商家管理后台商品录入功能，主要注意规格与模板的查询关系，以及SKU与SPU的理解，angularJS的监听事件使用，FastDFS的理解与使用。" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/index.html">
+    <entry file="file://$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbContentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1670">
-          <caret line="271" column="39" selection-start-line="271" selection-start-column="39" selection-end-line="271" selection-end-column="39" />
+        <state relative-caret-position="225">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/service/UserDetailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/legacy.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="292" column="22" selection-end-line="1431" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_content_category">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_seller">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/shoplogin.html">
+    <entry file="file://$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojo/TbContentCategory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2443">
-          <caret line="101" column="7" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
-          <folding>
-            <element signature="e#1963#1969#0" expanded="true" />
-            <element signature="e#1969#1975#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/resources/spring/spring-security.xml">
+    <entry file="file://$PROJECT_DIR$/youyougou-dao/src/main/resources/mapper/TbContentCategoryMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        <state relative-caret-position="131">
+          <caret line="158" column="56" selection-start-line="158" selection-start-column="56" selection-end-line="158" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven/maven-repository/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/filter/DelegatingFilterProxy.class">
+    <entry file="file://$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojo/TbContentCategoryExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1427">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+        <state relative-caret-position="-3007">
+          <caret line="29" column="139" selection-start-line="29" selection-start-column="139" selection-end-line="29" selection-end-column="139" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-pojo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/content_category.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="47">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-common/pom.xml">
+    <entry file="file://$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="372">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/resources/config/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="111" column="45" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/resources/config/fdfs_client.conf">
+    <entry file="file://$PROJECT_DIR$/youyougou-portal-web/src/main/resources/config/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-common/src/main/java/com/hundsun/youyougou/util/FastDFSClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1453" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/UploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#443#463#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-parent/pom.xml">
+    <entry file="file://$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/css/webbase.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/youyougou-portal-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="222">
+          <caret line="151" column="25" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/ItemCatController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/itemCatService.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/TypeTemplateController.java">
+    <entry file="file://$PROJECT_DIR$/youyougou-portal-web/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
-          <folding>
-            <element signature="e#2652#2653#0" expanded="true" />
-            <element signature="e#2702#2703#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="30" column="62" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_type_template">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_specification_option">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/TypeTemplateService.java">
+    <entry file="file://$PROJECT_DIR$/youyougou-portal-web/src/main/java/com/youyougou/portal/controller/ContentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+        <state relative-caret-position="222">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/baseController.js">
+    <entry file="file://$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/controller/contentController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/TypeTemplateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="132" column="38" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_specification">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/typeTemplateService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/service/uploadService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-interface/src/main/java/com/youyougou/sellergoods/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-service/src/main/java/com/youyougou/sellergoods/service/impl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="136" column="15" selection-start-line="136" selection-start-column="15" selection-end-line="136" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
-          <folding>
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1739#1740#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/java/com/youyougou/shop/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1886#1887#0" expanded="true" />
-            <element signature="e#1924#1925#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1625">
-          <caret line="101" column="124" selection-start-line="101" selection-start-column="124" selection-end-line="101" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e573fd52-9b89-4797-929b-56e4e488a491/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="44" />
-        </state>
+        <state relative-caret-position="-28" />
       </provider>
     </entry>
     <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_goods">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/admin/goods_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#11;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,17 +1604,244 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-shop-web/src/main/webapp/js/controller/goodsController.js">
+    <entry file="file://$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="2925">
+          <caret line="117" column="48" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/webapp/admin/goods.html">
+    <entry file="file://$PROJECT_DIR$/youyougou-common/src/main/resources/spring/applicationContext-redis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2975">
-          <caret line="119" column="99" selection-start-line="119" selection-start-column="97" selection-end-line="119" selection-end-column="99" />
+        <state relative-caret-position="375">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-common/src/main/resources/properties/redis-config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e573fd52-9b89-4797-929b-56e4e488a491/schema/pinyougoudb/table/tb_content">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/base_pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-portal-web/src/main/webapp/js/czFunction.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-content-service/src/main/java/com/youyougou/content/service/impl/ContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="147" column="58" selection-start-line="147" selection-start-column="58" selection-end-line="147" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-manager-web/src/main/java/com/youyougou/manager/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-content-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-sellergoods-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-solr-util/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-solr-util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-solr-util/src/main/resources/spring/applicationContext-solr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-pojo/src/main/java/com/youyougou/pojo/TbItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3953">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-solr-util/src/main/java/com/youyougou/solrutil/SolrUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-interface/src/main/java/com/youyougou/search/service/ItemSearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-service/src/main/resources/spring/applicationContext-solr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-service/target/classes/spring/applicationContext-solr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-service/target/classes/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-service/src/main/java/com/youyougou/search/service/impl/ItemSearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-354">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="118" column="35" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1091">
+          <caret line="145" column="25" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-web/src/main/webapp/js/controller/searchController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-web/src/main/webapp/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="86" column="126" selection-start-line="86" selection-start-column="124" selection-end-line="86" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-web/src/main/java/com/youyougou/search/controller/ItemSearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-web/src/main/resources/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youyougou-search-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
         </state>
       </provider>
     </entry>
