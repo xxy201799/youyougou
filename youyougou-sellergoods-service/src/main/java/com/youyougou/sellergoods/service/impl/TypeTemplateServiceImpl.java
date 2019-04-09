@@ -17,6 +17,7 @@ import com.youyougou.pojo.TbTypeTemplateExample.Criteria;
 import com.youyougou.sellergoods.service.TypeTemplateService;
 
 import com.youyougou.entity.PageResult;
+import org.springframework.data.redis.core.RedisTemplate;
 
 /**
  * 服务实现层
@@ -30,7 +31,9 @@ public class TypeTemplateServiceImpl implements TypeTemplateService {
 	private TbTypeTemplateMapper typeTemplateMapper;
 	@Autowired
 	private TbSpecificationOptionMapper specificationOptionMapper;
-	
+	@Autowired
+	private RedisTemplate redisTemplate;
+
 	/**
 	 * 查询全部
 	 */
@@ -46,6 +49,7 @@ public class TypeTemplateServiceImpl implements TypeTemplateService {
 	public PageResult findPage(int pageNum, int pageSize) {
 		PageHelper.startPage(pageNum, pageSize);		
 		Page<TbTypeTemplate> page=   (Page<TbTypeTemplate>) typeTemplateMapper.selectByExample(null);
+		//saveToRedis();//存入数据到缓存
 		return new PageResult(page.getTotal(), page.getResult());
 	}
 
@@ -107,10 +111,12 @@ public class TypeTemplateServiceImpl implements TypeTemplateService {
 			if(typeTemplate.getCustomAttributeItems()!=null && typeTemplate.getCustomAttributeItems().length()>0){
 				criteria.andCustomAttributeItemsLike("%"+typeTemplate.getCustomAttributeItems()+"%");
 			}
-	
+
 		}
-		
-		Page<TbTypeTemplate> page= (Page<TbTypeTemplate>)typeTemplateMapper.selectByExample(example);		
+
+		Page<TbTypeTemplate> page= (Page<TbTypeTemplate>)typeTemplateMapper.selectByExample(example);
+		//缓存处理
+		saveToRedis();
 		return new PageResult(page.getTotal(), page.getResult());
 	}
 
@@ -133,6 +139,25 @@ public class TypeTemplateServiceImpl implements TypeTemplateService {
 			map.put("options", options);
 		}
 		return list;
+	}
+
+	/**
+	 * 将数据存入缓存
+	 */
+	private void saveToRedis(){
+		//获取模板数据
+		List<TbTypeTemplate> typeTemplateList = findAll();
+		//循环模板
+		for(TbTypeTemplate typeTemplate :typeTemplateList){
+			//存储品牌列表
+			List<Map> brandList = JSON.parseArray(typeTemplate.getBrandIds(), Map.class);
+			redisTemplate.boundHashOps("brandList").put(typeTemplate.getId(), brandList);
+			System.out.println("品牌列表放入缓存");
+			//存储规格列表
+			List<Map> specList = findSpecList(typeTemplate.getId());//根据模板ID查询规格列表
+			redisTemplate.boundHashOps("specList").put(typeTemplate.getId(), specList);
+			System.out.println("规格列表放入缓存");
+		}
 	}
 
 }

@@ -100,6 +100,11 @@
             <artifactId>youyougou-search-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.youyougou</groupId>
+            <artifactId>youyougou-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
